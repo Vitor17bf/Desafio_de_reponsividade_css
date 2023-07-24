@@ -1,0 +1,153 @@
+@font-face {
+    font-family: luck;
+    src: url(/assets/Luckiest_Guy/LuckiestGuy-Regular.ttf);
+}
+html{
+    font-family: luck;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 28.688rem;
+    justify-content: center;
+    background-image: url(/img/Header\ Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    height: 16.87rem;
+    width: 47.3rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+       
+}
+.button{
+    
+    width: 31rem;
+    height: 2.5rem;
+}
+#title{
+    margin: 0;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    color: #FFFFFF;
+
+}
+#text-header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 0;
+    font-size: 1rem;
+    line-height: 1.3rem ;
+    color: #FFFFFF;
+    padding: 30px;
+    margin: 0;
+}
+#wind{
+    height: 2.75rem;
+    width: 12.813rem;
+    border-radius: 1.75rem;
+    border: 0px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #23272A;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.362rem;
+    cursor: pointer;
+}
+#chrome{
+    width: 17.563rem;
+    height: 2.75rem;
+    border-radius: 1.75rem;
+    border: 0px;
+    background-color: #23272A;
+    color: #FFFFFF;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.362rem;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+.text-section{
+    width: 21.75rem;
+    height: 23.375rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+.title-section{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+    margin: 0;
+    color:#23272A;
+}
+.sub-text-section{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 0;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #23272A;
+}
+.main-text{
+    width: 50.125rem;
+    height: 8.125rem;
+}
+.text-main{
+    height: 9rem;
+}
+#text-main{
+    font-family: Luck;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 0em;
+    text-align: center;
+}
+footer{
+    height: 8.375rem;
+    display: flex;
+    background-color: #23272A;
+    align-items: center;
+    justify-content: center;
+}
+.sub-text-section-01{
+  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 0;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #23272A;
+}
+img{
+    max-width: 100%;
+}
+@media screen and (max-width: 720px) {
+    main{
+        flex-direction: column;
+    }
+    
+    .img-main{
+        margin-top: 150px;
+    }
+}
